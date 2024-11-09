@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="MauiAppHotel.Views.Sobre"
+             Title="Sobre"
+             NavigationPage.HasNavigationBar="False">
+    <VerticalStackLayout VerticalOptions="CenterAndExpand">
+
+
+        <Label 
+     Text="Sobre"
+     FontFamily="Garamond"
+     FontSize="50"
+     TextColor="{StaticResource Black}"
+            HorizontalOptions="Center"/>
+        <Frame Padding="10"
+               Margin="10">
+            <Label 
+            
+                Text="Desenvolvedor: Jennifer Palu 
+  
+                
+                
+                
+                
+                  Data da criação: 30/10/2024"/>
+          
+            
+    
+        </Frame>
+
+
+        <Button Text="Voltar"
+                Clicked="Button_Clicked"
+                BackgroundColor="{StaticResource LightRed}"
+                HorizontalOptions="Center"/>
+
+
+    </VerticalStackLayout>
+
+
+</ContentPage>
